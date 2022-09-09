@@ -24,4 +24,6 @@ This repository contains learning notes about ready-to-use patterns examples wri
 * `observer.py` is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods
 * `visitor.py` design pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existing object structures without modifying the structures
 * `iterator.py` is used to traverse a container and access the container's elements
-* `strategy.py`
+* `strategy.py` enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use
+* `chain.py` pattern is recommended when multiple objects can handle a request and the handler doesn't have to be a specific object
+* 
